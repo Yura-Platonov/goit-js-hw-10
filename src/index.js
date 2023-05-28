@@ -18,7 +18,8 @@ function hideLoader() {
 }
 
 function showError(message) {
-  Notiflix.Notify.Failure(message);
+  Notiflix.Notify.failure(message);
+
 }
 
 showLoader();
